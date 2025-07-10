@@ -56,7 +56,16 @@ def main():
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
     print("🤖 البوت يعمل الآن...")
-    app.run_polling()
 
-if __name__ == "__main__":
+    keep_alive()  # يشغل Flask سيرفر صغير للاستقبال
+
+    # ضبط Webhook
+    webhook_url = f"https://YOUR_DOMAIN_HERE/{TELEGRAM_TOKEN}"
+    app.run_webhook(
+        listen="0.0.0.0",
+        port=8080,
+        url_path=TELEGRAM_TOKEN,
+        webhook_url=webhook_url
+    )
+
     main()
