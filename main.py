@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 
 # ========== بيانات التوكن والنموذج ==========
-TELEGRAM_TOKEN = '7956062539:AAEOGife_prAUmXZ_DvWkRULl4c3ARz32h4'
-OPENROUTER_API_KEY = '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'
+TELEGRAM_TOKEN = 'BOT_TOKEN'
+OPENROUTER_API_KEY = 'OPENROUTER_API_KEY'
 MODEL = 'deepseek/deepseek-chat-v3:free'
 
 # ========== إعدادات السجل ==========
