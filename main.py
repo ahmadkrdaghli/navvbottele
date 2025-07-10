@@ -67,5 +67,5 @@ def main():
         url_path=TELEGRAM_TOKEN,
         webhook_url=webhook_url
     )
-
+if __name__ == "__main__":
     main()
