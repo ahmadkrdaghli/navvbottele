@@ -67,5 +67,5 @@ if __name__ == "__main__":
         listen="0.0.0.0",
         port=PORT,
         url_path=BOT_TOKEN,
-        webhook_url=f"https://YOUR-DOMAIN-HERE/{BOT_TOKEN}"  # <-- غيّرها
+        webhook_url=f"https://navvbottele-production-7c6d.up.railway.app/{BOT_TOKEN}"  # <-- غيّرها
     )
