@@ -1,7 +1,9 @@
 import logging
-import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
+from keep_alive import keep_alive
+import requests
+import os
 
 # ========== بيانات التوكن والنموذج ==========
 TELEGRAM_TOKEN = 'BOT_TOKEN'
