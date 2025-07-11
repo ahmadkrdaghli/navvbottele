@@ -69,3 +69,4 @@ if __name__ == "__main__":
         url_path=BOT_TOKEN,
         webhook_url=f"https://navvbottele-production-7c6d.up.railway.app/{BOT_TOKEN}"  # <-- غيّرها
     )
+#بغبغ
